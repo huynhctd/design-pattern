@@ -1,10 +1,11 @@
 package factory_and_abstract_factory_pattern.notification.sms;
 
 import factory_and_abstract_factory_pattern.notification.common.Message;
+import factory_and_abstract_factory_pattern.notification.event.Event;
 
 import java.util.List;
 
-public class Viettel<T> implements Message<T> {
+public class Viettel<T extends Event> implements Message<T> {
     private String name;
 
     @Override

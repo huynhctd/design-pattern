@@ -1,6 +1,6 @@
 package factory_and_abstract_factory_pattern.notification.event;
 
-public class CreateUserEvent {
+public class CreateUserEvent implements Event{
     String id;
     String name;
     String status;

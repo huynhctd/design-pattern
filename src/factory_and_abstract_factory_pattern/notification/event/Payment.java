@@ -2,7 +2,7 @@ package factory_and_abstract_factory_pattern.notification.event;
 
 import java.math.BigDecimal;
 
-public class Payment {
+public class Payment implements Event{
     String id;
     BigDecimal amount;
 

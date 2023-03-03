@@ -2,6 +2,7 @@ package factory_and_abstract_factory_pattern.notification.message_queue;
 
 import factory_and_abstract_factory_pattern.notification.common.Message;
 import factory_and_abstract_factory_pattern.notification.common.Type;
+import factory_and_abstract_factory_pattern.notification.event.Event;
 import factory_and_abstract_factory_pattern.notification.factory.NotifyFactory;
 
 import java.util.EnumMap;
@@ -18,7 +19,7 @@ public class QueueFactory implements NotifyFactory {
 
 
     @Override
-    public <T> Message<T> getTypeNotification(Type type) {
+    public <T extends Event> Message<T> getTypeNotification(Type type) {
         Supplier<Message<?>> bank = context.get(type);
         if (bank == null) {
             throw new IllegalArgumentException("This queue type is unsupported");
