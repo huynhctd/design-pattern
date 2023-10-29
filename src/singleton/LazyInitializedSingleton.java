@@ -1,4 +1,4 @@
-package singleton_pattern;
+package singleton;
 
 public class LazyInitializedSingleton {
     public static LazyInitializedSingleton INSTANCE;

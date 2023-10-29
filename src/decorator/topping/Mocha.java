@@ -1,7 +1,7 @@
-package decorator_pattern.topping;
+package decorator.topping;
 
-import decorator_pattern.Beverage;
-import decorator_pattern.CondimentDecorator;
+import decorator.Beverage;
+import decorator.CondimentDecorator;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;

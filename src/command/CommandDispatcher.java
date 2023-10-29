@@ -1,4 +1,4 @@
-package command_pattern.core;
+package command;
 
 import java.util.HashMap;
 import java.util.Map;

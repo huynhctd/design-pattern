@@ -1,4 +1,4 @@
-package decorator_pattern;
+package decorator;
 
 public abstract class Beverage {
     protected String description = "Unknown Beverage";

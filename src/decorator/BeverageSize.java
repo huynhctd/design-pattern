@@ -1,4 +1,4 @@
-package decorator_pattern;
+package decorator;
 
 public enum BeverageSize {
     TALL, GRADE, BIG

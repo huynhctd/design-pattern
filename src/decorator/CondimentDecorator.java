@@ -1,4 +1,4 @@
-package decorator_pattern;
+package decorator;
 
 public abstract class CondimentDecorator extends Beverage{
     public CondimentDecorator(Beverage beverage) {

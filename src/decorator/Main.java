@@ -1,10 +1,10 @@
-package decorator_pattern;
+package decorator;
 
-import decorator_pattern.beverage.Espresso;
-import decorator_pattern.beverage.HouseBlend;
-import decorator_pattern.topping.Mocha;
-import decorator_pattern.topping.Soy;
-import decorator_pattern.topping.Whip;
+import decorator.beverage.Espresso;
+import decorator.beverage.HouseBlend;
+import decorator.topping.Mocha;
+import decorator.topping.Soy;
+import decorator.topping.Whip;
 
 public class Main {
     public static void main(String[] args) {

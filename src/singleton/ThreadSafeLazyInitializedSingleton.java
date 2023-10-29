@@ -1,4 +1,4 @@
-package singleton_pattern;
+package singleton;
 
 public class ThreadSafeLazyInitializedSingleton {
     public static volatile ThreadSafeLazyInitializedSingleton INSTANCE;

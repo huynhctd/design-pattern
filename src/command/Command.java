@@ -1,4 +1,4 @@
-package command_pattern.core;
+package command;
 
 public abstract class Command<R extends CommandResult> {
 }

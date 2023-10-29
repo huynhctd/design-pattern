@@ -1,8 +1,8 @@
-package decorator_pattern.topping;
+package decorator.topping;
 
-import decorator_pattern.Beverage;
-import decorator_pattern.BeverageSize;
-import decorator_pattern.CondimentDecorator;
+import decorator.Beverage;
+import decorator.BeverageSize;
+import decorator.CondimentDecorator;
 
 public class Soy extends CondimentDecorator {
     Beverage beverage;
